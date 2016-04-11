@@ -1,0 +1,40 @@
+@import url(//necolas.github.io/normalize.css/3.0.2/normalize.css);
+
+body {
+    background-color: #a0d7e8; 
+}
+
+#calendar {
+    background-color: #17eac9;
+    height: auto;
+    float: left; 
+}
+
+.header {
+    height: 5em;
+    background-color: cyan;
+    width: 100%;
+    text-align: center;
+}
+
+.week {
+    display: inline;
+}
+
+.day {
+    border: 1px solid black;
+    height: 5em;
+    width: 10%;
+}
+
+.day:hover {
+    background-color: rgb(190, 163, 75);
+}
+
+.empty {
+    background-color: gray;
+}
+
+.empty:hover {
+    background-color: gray;
+}
